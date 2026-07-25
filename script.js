@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    fetch(scriptURL, { method: 'POST', body: formData})
+    fetch(scriptURL, { method: 'POST', body: new URLSearchParams(formData)})
       .then(response => {
         formFields.style.display = 'none';
         formSuccess.classList.add('visible');
