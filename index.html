@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#111111" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="description" content="NexGen Web Solutions — We craft stunning, high-performance websites that grow your business. View our portfolio and get in touch today." />
+  <meta name="keywords" content="web design, website development, web agency, portfolio, contact, NexGen Web Solutions" />
+  <meta property="og:title" content="NexGen Web Solutions | Premium Web Design Agency" />
+  <meta property="og:description" content="We design and build websites that convert visitors into customers. Explore our work and reach out." />
+  <title>NexGen Web Solutions | Premium Web Design Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo-link">
+        <span class="logo-mark">N</span>
+        <span class="logo-text">exGen<span class="logo-dot">.</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Our Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta" id="nav-cta-btn">Get a Quote</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO SECTION ═══════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="hero_bg.png" alt="Hero Background" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        <span>Available for New Projects</span>
+      </div>
+      <h1 class="hero-title reveal">
+        We Build Websites<br/>
+        <span class="gradient-text">That Drive Results</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        From concept to launch, NexGen Web Solutions crafts premium digital experiences
+        that captivate your audience and accelerate your business growth.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#portfolio" class="btn btn-primary" id="hero-work-btn">See Our Work</a>
+        <a href="#contact" class="btn btn-ghost" id="hero-contact-btn">
+          <span>Start a Project</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat-item">
+          <span class="stat-number" data-target="120">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Client Satisfaction</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ MARQUEE STRIP ═══════════════════ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Web Design</span><span class="sep">✦</span>
+      <span>E-Commerce</span><span class="sep">✦</span>
+      <span>Landing Pages</span><span class="sep">✦</span>
+      <span>SEO Optimization</span><span class="sep">✦</span>
+      <span>Web Apps</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Performance Audits</span><span class="sep">✦</span>
+      <span>Web Design</span><span class="sep">✦</span>
+      <span>E-Commerce</span><span class="sep">✦</span>
+      <span>Landing Pages</span><span class="sep">✦</span>
+      <span>SEO Optimization</span><span class="sep">✦</span>
+      <span>Web Apps</span><span class="sep">✦</span>
+      <span>UI/UX Design</span><span class="sep">✦</span>
+      <span>Brand Identity</span><span class="sep">✦</span>
+      <span>Performance Audits</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════ ABOUT SECTION ═══════════════════ -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card-stack">
+            <div class="about-card card-back"></div>
+            <div class="about-card card-mid"></div>
+            <div class="about-card card-front">
+              <div class="card-icon">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="12" fill="#C8F135"/><path d="M12 20h16M20 12v16" stroke="#111" stroke-width="2.5" stroke-linecap="round"/></svg>
+              </div>
+              <p class="card-text">"Every pixel we place has a purpose."</p>
+              <span class="card-author">— NexGen Team</span>
+            </div>
+          </div>
+          <div class="about-badge-floating">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2l2.39 4.84L18 7.64l-4 3.9.94 5.46L10 14.27 5.06 17l.94-5.46L2 7.64l5.61-.8L10 2z" fill="#C8F135"/></svg>
+            Top-Rated Agency
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-tag">Who We Are</div>
+          <h2 class="section-title">We Turn Ideas Into <br/><em>Digital Masterpieces</em></h2>
+          <p class="about-text">
+            NexGen Web Solutions is a boutique web design and development agency passionate about creating exceptional digital experiences. We don't just build websites — we craft powerful online presences that tell your story, engage your audience, and drive measurable business results.
+          </p>
+          <p class="about-text">
+            Our team of designers, developers, and strategists collaborate closely with every client to deliver bespoke solutions tailored to your unique goals and brand identity.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Strategy-first approach</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Mobile-first responsive design</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>Fast delivery & ongoing support</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✓</div>
+              <span>SEO & performance optimized</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary" id="about-cta-btn">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SERVICES SECTION ═══════════════════ -->
+  <section class="services section-pad bg-dark" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag light">What We Do</div>
+        <h2 class="section-title light">Our Services</h2>
+        <p class="section-sub light">Everything you need to build, launch, and grow your online presence — under one roof.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" id="service-webdesign">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="2" y="4" width="24" height="17" rx="3" stroke="#C8F135" stroke-width="1.8"/><path d="M9 21v3M19 21v3M6 24h16" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round"/><path d="M6 10h16M6 14h10" stroke="#C8F135" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">Web Design & Development</h3>
+          <p class="service-desc">Custom, pixel-perfect websites built for performance. We create fast, modern, and responsive websites tailored to your brand.</p>
+          <div class="service-tags"><span>HTML/CSS</span><span>JavaScript</span><span>React</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal" id="service-ecommerce">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 4h3l2 10h12l2-7H9" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="22" r="1.5" fill="#C8F135"/><circle cx="20" cy="22" r="1.5" fill="#C8F135"/></svg>
+          </div>
+          <h3 class="service-title">E-Commerce Solutions</h3>
+          <p class="service-desc">Full-featured online stores that convert browsers into buyers. Integrated with payment gateways, inventory, and analytics.</p>
+          <div class="service-tags"><span>Shopify</span><span>WooCommerce</span><span>Custom</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal" id="service-landing">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 4v14M9 14l5 5 5-5" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 22h18" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">Landing Pages</h3>
+          <p class="service-desc">High-converting landing pages designed with CRO principles to turn ad traffic into qualified leads and sales.</p>
+          <div class="service-tags"><span>A/B Testing</span><span>Analytics</span><span>CRO</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal" id="service-ux">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="#C8F135" stroke-width="1.8"/><circle cx="14" cy="14" r="4" stroke="#C8F135" stroke-width="1.8"/><path d="M14 4v4M14 20v4M4 14h4M20 14h4" stroke="#C8F135" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">UI/UX Design</h3>
+          <p class="service-desc">User-centered design that's both beautiful and intuitive. We create wireframes, prototypes, and polished final designs.</p>
+          <div class="service-tags"><span>Figma</span><span>Prototyping</span><span>Research</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal" id="service-seo">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="12" cy="12" r="7" stroke="#C8F135" stroke-width="1.8"/><path d="M17 17l5 5" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round"/><path d="M9 12h6M12 9v6" stroke="#C8F135" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-title">SEO & Performance</h3>
+          <p class="service-desc">Get found on Google. We optimize your site for speed, accessibility, and search rankings that drive organic traffic.</p>
+          <div class="service-tags"><span>Core Web Vitals</span><span>On-Page SEO</span><span>Analytics</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+        <div class="service-card reveal" id="service-maintenance">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 14a8 8 0 1 0 16 0 8 8 0 0 0-16 0z" stroke="#C8F135" stroke-width="1.8"/><path d="M14 10v4l3 3" stroke="#C8F135" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="service-title">Maintenance & Support</h3>
+          <p class="service-desc">We don't disappear after launch. Ongoing maintenance packages keep your website secure, updated, and running perfectly.</p>
+          <div class="service-tags"><span>24/7 Support</span><span>Updates</span><span>Security</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PORTFOLIO SECTION ═══════════════════ -->
+  <section class="portfolio section-pad" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Selected Projects</h2>
+        <p class="section-sub">A showcase of the digital experiences we've crafted for our clients across industries.</p>
+      </div>
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+        <button class="filter-btn" data-filter="ecommerce" id="filter-ecommerce">E-Commerce</button>
+        <button class="filter-btn" data-filter="saas" id="filter-saas">SaaS / Apps</button>
+        <button class="filter-btn" data-filter="business" id="filter-business">Business</button>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <div class="portfolio-item reveal" data-category="ecommerce" id="portfolio-item-1">
+          <div class="portfolio-img-wrap">
+            <img src="p1.png" alt="FreshCart E-Commerce Platform" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">E-Commerce</span>
+                <h3 class="portfolio-name">FreshCart Platform</h3>
+                <p class="portfolio-desc">A full-featured grocery e-commerce store with real-time inventory and delivery tracking.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port1-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="saas" id="portfolio-item-2">
+          <div class="portfolio-img-wrap">
+            <img src="p2.png" alt="DataFlow SaaS Dashboard" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">SaaS / App</span>
+                <h3 class="portfolio-name">DataFlow Dashboard</h3>
+                <p class="portfolio-desc">An analytics SaaS platform with real-time data visualization and team collaboration.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port2-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="business" id="portfolio-item-3">
+          <div class="portfolio-img-wrap">
+            <img src="p3.png" alt="La Maison Restaurant Website" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">Restaurant</span>
+                <h3 class="portfolio-name">La Maison Fine Dining</h3>
+                <p class="portfolio-desc">An elegant restaurant website with online reservations, menu showcase, and event bookings.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port3-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="business" id="portfolio-item-4">
+          <div class="portfolio-img-wrap">
+            <img src="p4.png" alt="Studio Noir Creative Agency" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">Agency Portfolio</span>
+                <h3 class="portfolio-name">Studio Noir</h3>
+                <p class="portfolio-desc">A bold creative agency portfolio with immersive animations and case study pages.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port4-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="business" id="portfolio-item-5">
+          <div class="portfolio-img-wrap">
+            <img src="p5.png" alt="MediCare Health Clinic Website" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">Healthcare</span>
+                <h3 class="portfolio-name">MediCare Clinic</h3>
+                <p class="portfolio-desc">A professional healthcare website with appointment scheduling and doctor profiles.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port5-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item reveal" data-category="ecommerce" id="portfolio-item-6">
+          <div class="portfolio-img-wrap">
+            <img src="p6.png" alt="LuxEstate Real Estate Website" class="portfolio-img" loading="lazy" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-meta">
+                <span class="portfolio-cat">Real Estate</span>
+                <h3 class="portfolio-name">LuxEstate Properties</h3>
+                <p class="portfolio-desc">A luxury real estate platform with advanced property search and virtual tours.</p>
+                <a href="#contact" class="btn btn-sm btn-white" id="port6-btn">Build Similar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TESTIMONIALS ═══════════════════ -->
+  <section class="testimonials section-pad bg-dark" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag light">Client Love</div>
+        <h2 class="section-title light">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonials-track">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"NexGen completely transformed our online presence. Our website traffic doubled within 3 months of launch and our conversion rate jumped by 40%."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#C8F135; color:#111;">A</div>
+              <div>
+                <div class="author-name">Amit Sharma</div>
+                <div class="author-role">CEO, TechVentures India</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"The team delivered our e-commerce store ahead of schedule and the design was beyond what we imagined. Absolutely professional from start to finish."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#e0e0e0; color:#111;">S</div>
+              <div>
+                <div class="author-name">Sarah Mitchell</div>
+                <div class="author-role">Founder, StyleHouse Boutique</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"We've worked with several agencies before, but NexGen stands out. Their attention to detail and post-launch support is unmatched. Highly recommend!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#333; color:#C8F135;">R</div>
+              <div>
+                <div class="author-name">Ravi Kumar</div>
+                <div class="author-role">Director, FinCore Solutions</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Our restaurant bookings increased by 60% after the new website launched. The online reservation system works flawlessly. Best investment we made."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#C8F135; color:#111;">P</div>
+              <div>
+                <div class="author-name">Priya Nair</div>
+                <div class="author-role">Owner, La Maison Dining</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Fast, creative, and easy to communicate with. They understood exactly what we needed and delivered a website that truly represents our brand."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#555; color:#fff;">M</div>
+              <div>
+                <div class="author-name">Michael Torres</div>
+                <div class="author-role">Marketing Head, GreenLeaf Co.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="tcontrol prev" id="tprev" aria-label="Previous testimonial">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M13 16l-6-6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="tcontrol-dots" id="tcontrol-dots"></div>
+        <button class="tcontrol next" id="tnext" aria-label="Next testimonial">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PROCESS SECTION ═══════════════════ -->
+  <section class="process section-pad" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">How We Work</div>
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-sub">A clear, transparent process that keeps you in the loop from kickoff to launch.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3 class="step-title">Discovery & Strategy</h3>
+            <p class="step-desc">We start by understanding your business, goals, and target audience. Deep research shapes the strategy that guides every decision.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3 class="step-title">Design & Prototype</h3>
+            <p class="step-desc">We create wireframes and high-fidelity designs for your review. Your feedback is central to the iterative design process.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3 class="step-title">Development & Testing</h3>
+            <p class="step-desc">Clean, performant code brings the design to life. Rigorous testing across devices and browsers ensures a flawless experience.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3 class="step-title">Launch & Support</h3>
+            <p class="step-desc">We handle deployment and monitor performance post-launch. Ongoing support ensures your site keeps growing with your business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACT SECTION ═══════════════════ -->
+  <section class="contact section-pad bg-dark" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="section-tag light">Get In Touch</div>
+          <h2 class="section-title light">Let's Build Something <em>Great</em> Together</h2>
+          <p class="contact-sub">Ready to start your next project? Fill out the form and we'll get back to you within 24 hours. Or reach us directly through the details below.</p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5.5A1.5 1.5 0 0 1 4.5 4h11A1.5 1.5 0 0 1 17 5.5v9A1.5 1.5 0 0 1 15.5 16h-11A1.5 1.5 0 0 1 3 14.5v-9z" stroke="#C8F135" stroke-width="1.5"/><path d="M3 6l7 5 7-5" stroke="#C8F135" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <div class="detail-label">Email Us</div>
+                <a href="mailto:hello@nexgenweb.com" class="detail-value" id="contact-email">hello@nexgenweb.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 3h3.5l1.5 4-2 1.5C7.8 10.8 9.2 12.2 11 13l1.5-2 4 1.5V16A1 1 0 0 1 15.5 17C7.5 17 3 11.5 3 4.5A1 1 0 0 1 4 3z" stroke="#C8F135" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <div class="detail-label">Call Us</div>
+                <a href="tel:+911234567890" class="detail-value" id="contact-phone">+91 123 456 7890</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2C7.24 2 5 4.24 5 7c0 4.5 5 11 5 11s5-6.5 5-11c0-2.76-2.24-5-5-5z" stroke="#C8F135" stroke-width="1.5"/><circle cx="10" cy="7" r="2" stroke="#C8F135" stroke-width="1.5"/></svg>
+              </div>
+              <div>
+                <div class="detail-label">Our Location</div>
+                <span class="detail-value">Mumbai, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect width="18" height="18" rx="4" fill="currentColor" opacity="0.1"/><path d="M5 7h2v6H5V7zm1-2a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm3 2h1.9v.8h.03C11.27 7.6 12.1 7 13.2 7 15.3 7 16 8.4 16 10.2V13h-2v-2.5c0-.8-.02-1.8-1.1-1.8-1.1 0-1.27.86-1.27 1.74V13H9V7z" fill="currentColor"/></svg>
+              LinkedIn
+            </a>
+            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect width="18" height="18" rx="4" fill="currentColor" opacity="0.1"/><rect x="4" y="4" width="10" height="10" rx="3" stroke="currentColor" stroke-width="1.4"/><circle cx="9" cy="9" r="2.5" stroke="currentColor" stroke-width="1.4"/><circle cx="13" cy="5" r="0.8" fill="currentColor"/></svg>
+              Instagram
+            </a>
+            <a href="#" class="social-link" id="social-twitter" aria-label="Twitter">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect width="18" height="18" rx="4" fill="currentColor" opacity="0.1"/><path d="M14 5.5a4.1 4.1 0 0 1-1.17.32 2.05 2.05 0 0 0 .9-1.13 4.1 4.1 0 0 1-1.3.5A2.05 2.05 0 0 0 8.9 7.1 5.82 5.82 0 0 1 4.7 4.95a2.05 2.05 0 0 0 .63 2.73 2.04 2.04 0 0 1-.92-.26v.03a2.05 2.05 0 0 0 1.64 2.01 2.06 2.06 0 0 1-.92.04 2.05 2.05 0 0 0 1.91 1.42A4.11 4.11 0 0 1 4 11.8a5.8 5.8 0 0 0 3.14.92c3.77 0 5.83-3.12 5.83-5.83l-.01-.27A4.15 4.15 0 0 0 14 5.5z" fill="currentColor"/></svg>
+              Twitter
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-success" id="form-success">
+              <div class="success-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#C8F135" opacity="0.15"/><circle cx="24" cy="24" r="22" stroke="#C8F135" stroke-width="2"/><path d="M14 24l7 7 13-13" stroke="#C8F135" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Message Sent!</h3>
+              <p>Thank you for reaching out. We'll get back to you within 24 hours.</p>
+            </div>
+            <div class="form-fields" id="form-fields">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="f-name" class="form-label">Full Name <span>*</span></label>
+                  <input type="text" id="f-name" name="name" class="form-input" placeholder="John Doe" required autocomplete="name"/>
+                  <div class="form-error" id="err-name">Please enter your name.</div>
+                </div>
+                <div class="form-group">
+                  <label for="f-email" class="form-label">Email Address <span>*</span></label>
+                  <input type="email" id="f-email" name="email" class="form-input" placeholder="john@example.com" required autocomplete="email"/>
+                  <div class="form-error" id="err-email">Please enter a valid email.</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="f-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="f-phone" name="phone" class="form-input" placeholder="+91 98765 43210" autocomplete="tel"/>
+              </div>
+              <div class="form-group">
+                <label for="f-service" class="form-label">Service Interested In <span>*</span></label>
+                <select id="f-service" name="service" class="form-input form-select" required>
+                  <option value="" disabled selected>Select a service...</option>
+                  <option value="web-design">Web Design & Development</option>
+                  <option value="ecommerce">E-Commerce Solution</option>
+                  <option value="landing">Landing Page</option>
+                  <option value="ux">UI/UX Design</option>
+                  <option value="seo">SEO & Performance</option>
+                  <option value="maintenance">Maintenance & Support</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+                <div class="form-error" id="err-service">Please select a service.</div>
+              </div>
+              <div class="form-group">
+                <label for="f-budget" class="form-label">Estimated Budget</label>
+                <select id="f-budget" name="budget" class="form-input form-select">
+                  <option value="" disabled selected>Select your budget range...</option>
+                  <option value="under-5k">Under ₹50,000</option>
+                  <option value="5k-15k">₹50,000 – ₹1,50,000</option>
+                  <option value="15k-30k">₹1,50,000 – ₹3,00,000</option>
+                  <option value="30k+">₹3,00,000+</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="f-message" class="form-label">Your Message <span>*</span></label>
+                <textarea id="f-message" name="message" class="form-input form-textarea" placeholder="Tell us about your project, goals, timeline..." required rows="5"></textarea>
+                <div class="form-error" id="err-message">Please enter a message.</div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-loader" style="display:none;">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="spin"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" stroke-dasharray="25 50" stroke-linecap="round"/></svg>
+                  Sending...
+                </span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="btn-icon"><path d="M2 8h12M10 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo" id="footer-logo-link">
+            <span class="logo-mark">N</span>
+            <span class="logo-text">exGen<span class="logo-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">We build digital experiences that matter. Premium websites for businesses that mean business.</p>
+          <div class="footer-socials">
+            <a href="#" class="fsocial" id="footer-social-linkedin" aria-label="LinkedIn">in</a>
+            <a href="#" class="fsocial" id="footer-social-instagram" aria-label="Instagram">ig</a>
+            <a href="#" class="fsocial" id="footer-social-twitter" aria-label="Twitter">tw</a>
+            <a href="#" class="fsocial" id="footer-social-behance" aria-label="Behance">be</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services" id="footer-link-webdesign">Web Design & Dev</a></li>
+            <li><a href="#services" id="footer-link-ecommerce">E-Commerce</a></li>
+            <li><a href="#services" id="footer-link-landing">Landing Pages</a></li>
+            <li><a href="#services" id="footer-link-ux">UI/UX Design</a></li>
+            <li><a href="#services" id="footer-link-seo">SEO & Performance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="#about" id="footer-link-about">About Us</a></li>
+            <li><a href="#portfolio" id="footer-link-portfolio">Our Work</a></li>
+            <li><a href="#process" id="footer-link-process">Our Process</a></li>
+            <li><a href="#testimonials" id="footer-link-testimonials">Testimonials</a></li>
+            <li><a href="#contact" id="footer-link-contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-links no-hover">
+            <li><a href="mailto:hello@nexgenweb.com" id="footer-email">hello@nexgenweb.com</a></li>
+            <li><a href="tel:+911234567890" id="footer-phone">+91 123 456 7890</a></li>
+            <li>Mumbai, Maharashtra, India</li>
+          </ul>
+          <div class="footer-availability">
+            <span class="avail-dot"></span>
+            <span>Available for new projects</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 NexGen Web Solutions. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#" id="footer-privacy">Privacy Policy</a>
+          <a href="#" id="footer-terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    href="https://wa.me/911234567890?text=Hi%20NexGen%20Web%20Solutions!%20I%27d%20like%20to%20discuss%20a%20website%20project."
+    class="whatsapp-fab"
+    id="whatsapp-fab"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp"
+  >
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.522 3.66 1.43 5.18L2 22l4.95-1.4A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z" fill="rgba(255,255,255,0.15)"/>
+      <path d="M12 3.5C7.313 3.5 3.5 7.313 3.5 12c0 1.762.511 3.403 1.394 4.78L4 20l3.34-.88A8.5 8.5 0 1 0 12 3.5z" fill="white" fill-opacity="0.2"/>
+      <path d="M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0z" fill="#25D366"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.04 7.5c-.21-.47-.43-.48-.63-.49-.16 0-.35-.01-.53-.01-.18 0-.48.07-.73.34C6.9 7.6 6 8.45 6 10.17c0 1.73 1.26 3.4 1.44 3.64.18.23 2.43 3.87 5.99 5.27 2.97 1.17 3.57.94 4.21.88.64-.06 2.07-.85 2.36-1.66.29-.82.29-1.52.2-1.67-.09-.14-.33-.23-.69-.41-.36-.18-2.13-1.05-2.46-1.17-.33-.12-.57-.18-.81.18-.24.36-.93 1.17-1.14 1.41-.21.24-.42.27-.78.09-.36-.18-1.52-.56-2.89-1.79-1.07-.95-1.79-2.13-2-2.49-.21-.36-.02-.55.16-.73.16-.16.36-.42.54-.63.18-.21.24-.36.36-.6.12-.24.06-.45-.03-.63-.09-.18-.81-1.95-1.13-2.67z" fill="white"/>
+    </svg>
+    <span class="wa-label">Chat with us</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 16V4M4 10l6-6 6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
