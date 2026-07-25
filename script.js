@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!validateForm()) return;
 
     // 🔴 REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-    const scriptURL = 'YOUR_GOOGLE_SCRIPT_URL_HERE'; 
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGD9WfjMbQ8XJKpjv2YJWGqTlls4JayFkb0RxxAAuovhmprnPr04WcsbexrdyukF7_rw/exec'; 
     const formData = new FormData(form);
 
     // Show loading state
