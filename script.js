@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!validateForm()) return;
 
     // 🔴 REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGD9WfjMbQ8XJKpjv2YJWGqTlls4JayFkb0RxxAAuovhmprnPr04WcsbexrdyukF7_rw/exec'; 
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyoRjk5IZWQjqzQWUfqd6iWQdL0gVgn_8rkYemSMY9JD4fS2SdabnA3yc2wrORoOGG0mA/exec'; 
     const formData = new FormData(form);
 
     // Show loading state
